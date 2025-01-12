@@ -1,3 +1,6 @@
+print("hello")
+
+
 def factorial(n):
     """
     Calculate the factorial of a number using recursion.
