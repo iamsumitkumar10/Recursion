@@ -1,4 +1,5 @@
-print("hello")
+
+print("test case")
 
 
 def factorial(n):
@@ -12,9 +13,7 @@ def factorial(n):
     else:  # Recursive case
         return n * factorial(n - 1)
 
-# Example usage
-number = int(input("Enter a non-negative integer: "))
-if number < 0:
-    print("Factorial is not defined for negative numbers.")
-else:
-    print(f"The factorial of {number} is {factorial(number)}.")
+# Fixed number for factorial calculation
+number = 5  # You can change this value as needed
+result = factorial(number)
+print(f"The factorial of {number} is {result}.")
